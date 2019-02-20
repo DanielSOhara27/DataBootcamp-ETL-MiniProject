@@ -20,7 +20,8 @@ Los Detectives ETL
 ````
 The objective is to find a correlation, if any, between patrol zones
 and the crimes committed in the same area limited to the 2018 year. 
-We will use the databases provided by the goberment.
+We will use the databases provided by the goberment. The coordinates
+were created using the [Wiki - WGS84 Standard](https://es.wikipedia.org/wiki/WGS84)
 
 ````
 
