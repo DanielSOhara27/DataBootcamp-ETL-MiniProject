@@ -15,6 +15,9 @@ create table delitos(
     Unidad_de_inestigacion varcharacter(20),
     Fecha_inicio varchar(20),
     Colonia varcharacter(100),
-    Geopoint varchar(25),
+    Geopoint varchar(50),
+    Zona_patrullaje varcharacter(100),
     PRIMARY KEY(id)
 );
+
+select * from delitos;
