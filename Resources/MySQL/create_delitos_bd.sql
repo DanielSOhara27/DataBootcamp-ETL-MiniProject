@@ -5,7 +5,7 @@ CREATE DATABASE delitos_db;
 
 use delitos_db;
 
-create table icecreamstore(
+create table delitos(
 	id int auto_increment NOT NULL,
     Año int,
     Mes varcharacter(20),
