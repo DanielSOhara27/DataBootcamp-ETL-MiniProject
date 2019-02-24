@@ -38,8 +38,11 @@ create table zonas_patrullaje(
 create table delitos_zonas_patrullaje(
 	id int auto_increment NOT NULL,
     delitos_FK int,
-    zonas_patrullaje_Fk int
+    zonas_patrullaje_Fk int,
+    num_crimenes int,
     PRIMARY KEY(id)
 );
 
-select * from delitos;
+describe delitos;
+describe zonas_patrullaje;
+describe delitos_zonas_patrullaje;
