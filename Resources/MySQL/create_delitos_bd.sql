@@ -20,4 +20,26 @@ create table delitos(
     PRIMARY KEY(id)
 );
 
+create table zonas_patrullaje(
+	id int auto_increment NOT NULL,
+    Geopoint varcharacter(100),
+    Geoshape text,
+    Alcaldia varcharacter(100),
+    sector_18 varcharacter(100),
+    area_km2 double,
+    x double,
+    y double,
+    mean_distance double,
+    standard_deviation double,
+    all_distances text,
+    PRIMARY KEY(id)
+);
+
+create table delitos_zonas_patrullaje(
+	id int auto_increment NOT NULL,
+    delitos_FK int,
+    zonas_patrullaje_Fk int
+    PRIMARY KEY(id)
+);
+
 select * from delitos;
